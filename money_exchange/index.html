@@ -1,0 +1,45 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> โปรแกรมคำนวณอัตราแลกเปลี่ยนเงินตราต่างประเทศกับเงินบาทไทย</title>
+<style type="text/css">
+<!--
+body {
+    background-color:pink;
+    color:#fff;
+}
+
+</style></head>
+
+<body>
+ 
+    <form action="process.php" method="post">
+<table width="500" align="center" >
+    <tr>
+      <td colspan="2">
+      <div align="center"><h3>คำนวณอัตราแลกเปลี่ยนเงินตราต่างประเทศกับเงินบาทไทย</h3></div></td>
+    </tr>
+    <tr>
+      <td width="100"><div align="right">จำนวนเงิน : </div></td>
+      <td width="200"><input type="text" name="money" font-family="cs_prajadregular" size="20" maxlength="100" />  บาทไทย (THB)</td>
+    </tr>     
+    <tr>
+      <td width="150"><div align="right">เลือกสกุลเงิน : </div></td>
+      <td width="212"><select name="coin" >
+      			<option value="1" >เงินเยนของญี่ปุ่น (JPY)</option>    
+                <option value="2" >ปอนด์ (GBP)</option>
+                <option value="3" >สหดอลลาร์สหรัฐอเมริกา (USD)</option>
+                             
+              </select></td>
+    </tr>  
+    <tr>
+      <td colspan="2"> <div align="center"><input type="submit" value="คำนวณ" /></div></td>
+    </tr>   
+    <tr>
+      <td colspan="2" style="font-size:14px; color:#000;" align="center"></td>
+    </tr>
+  </table>
+<div align="center"></div>
+</body>
+</html>
